@@ -1,0 +1,8 @@
+/* Nexus — App-level styles */
+/* All design tokens and component styles live in index.css */
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
