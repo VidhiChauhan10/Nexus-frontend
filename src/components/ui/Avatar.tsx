@@ -22,7 +22,7 @@ export const Avatar: React.FC<AvatarProps> = ({ name, avatar, size = 'md', class
     return (
       <img src={avatar} alt={name}
         className={cn('rounded-full object-cover', sizes[size], className)}
-        style={{ ring: '2px solid rgba(13,242,192,0.3)' }} />
+        style={{ boxShadow: '0 0 0 2px rgba(13,242,192,0.3)' }} />
     );
   }
   return (
